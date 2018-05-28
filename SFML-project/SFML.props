@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <SFMLDirectory>D:\Program Files\IDE addons\SFML-2.5.0\</SFMLDirectory>
+    <SFMLLibrariesStaticDebug>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-audio-s-d.lib;sfml-network-s-d.lib;sfml-system-s-d.lib</SFMLLibrariesStaticDebug>
+    <SFMLLibrariesStaticRelease>sfml-graphics-s.lib;sfml-window-s.lib;sfml-audio-s.lib;sfml-network-s.lib;sfml-system-s.lib</SFMLLibrariesStaticRelease>
+    <SFMLLibrariesDynamicDebug>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-system-d.lib</SFMLLibrariesDynamicDebug>
+    <SFMLLibrariesDynamicRelease>sfml-graphics.lib;sfml-window.lib;sfml-audio.lib;sfml-network.lib;sfml-system.lib</SFMLLibrariesDynamicRelease>
+    <SFMLDependencies>freetype.lib;glu32.lib;opengl32.lib;openal32.lib;ogg.lib;flac.lib;vorbis.lib;vorbisfile.lib;vorbisenc.lib;gdi32.lib;winmm.lib;ws2_32.lib</SFMLDependencies>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="SFMLDirectory">
+      <Value>$(SFMLDirectory)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="SFMLLibrariesStaticDebug">
+      <Value>$(SFMLLibrariesStaticDebug)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="SFMLLibrariesStaticRelease">
+      <Value>$(SFMLLibrariesStaticRelease)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="SFMLLibrariesDynamicDebug">
+      <Value>$(SFMLLibrariesDynamicDebug)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="SFMLLibrariesDynamicRelease">
+      <Value>$(SFMLLibrariesDynamicRelease)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="SFMLDependencies">
+      <Value>$(SFMLDependencies)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\img">
+      <UniqueIdentifier>{b3620bf3-a09e-4a21-b4b0-df525047c556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sfx">
+      <UniqueIdentifier>{360f5c34-528a-4baa-ac01-90cdaee45dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\font">
+      <UniqueIdentifier>{2e249517-1b6d-4613-b741-87e644f4ae67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{1d32fa7f-1d60-4125-8f7d-06d605dcb36a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons">
+      <UniqueIdentifier>{c0e0591a-88a6-445c-b7b0-62e56102af7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="States\StateCredit.hpp">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\StateGame.hpp">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\StateInit.hpp">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\StateMenu.hpp">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons\Button.hpp">
+      <Filter>Addons</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons\Color.hpp">
+      <Filter>Addons</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons\Cursor.hpp">
+      <Filter>Addons</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons\Debug.hpp">
+      <Filter>Addons</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons\Text.hpp">
+      <Filter>Addons</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\img\background.jpg">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="resources\img\button.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="resources\img\button_hover.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="resources\img\cursor.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="resources\img\icon.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="resources\img\logo.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="resources\img\logo2.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\font\LemonMilk.otf">
+      <Filter>Resource Files\font</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\sfx\menu_theme.ogg">
+      <Filter>Resource Files\sfx</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="States\StateCredit.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\StateGame.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\StateInit.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\StateMenu.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Addons\Button.cpp">
+      <Filter>Addons</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
